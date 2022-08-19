@@ -7,11 +7,29 @@ inquirer.
 prompt([{
         type: 'input',
         message: 'What is the title of your project?',
-        name: 'user',
-    }])
-    .then((answer) => {
+        name: 'title',
+    },
+    {
+        type: 'input',
+        message: 'Write a breif description of your project.',
+        name: 'discription',
+    },
+
+
+
+])
+
+.then((answer) => {
+
+        let titleString = "# Title: " + `${answer.title}\n`;
+        let discription = "## Discription:\n" + `* ${answer.discription}\n`;
         console.log(answer);
-        fs.writeFile('README.md', `The title is #${answer.user}`, (err) =>
+
+        let content = "";
+        content = content + titleString + discription;
+        console.log(content);
+
+        fs.writeFile('README.md', content, (err) =>
             err ? console.error(err) : console.log('Success!')
         );
     })
