@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
+const markdown = require('./generateMarkdown.js');
 // TODO: Create an array of questions for user input
 // Prompt for inquirer
 inquirer.
@@ -29,23 +30,17 @@ prompt([{
         message: 'What problem did you solve?',
         name: 'problem',
     },
-
-
-
-
+    {
+        type: 'input',
+        message: 'What did you learn?',
+        name: 'learn',
+    },
 ])
 
 .then((answer) => {
 
-        let titleString = "# Title: " + `${answer.title}\n`;
-        let discription = "## Discription:\n" + `* ${answer.discription}\n`;
-        console.log(answer);
 
-        let content = "";
-        content = content + titleString + discription;
-        console.log(content);
-
-        fs.writeFile('README.md', content, (err) =>
+        fs.writeFile('README.md', markdown(answer), (err) =>
             err ? console.error(err) : console.log('Success!')
         );
     })
