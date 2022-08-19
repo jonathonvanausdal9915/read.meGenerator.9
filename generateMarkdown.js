@@ -16,25 +16,40 @@ function generateMarkdown(answer) {
 
 
 
-    let titleString = "# Title: " + `${answer.title}\n`;
+    let titleString = "# Title: " + `${answer.title}\n\n`;
     let discription = "## Discription:\n" + `* ${answer.discription}\n`;
-    let motivation = "* " + `${answer.motivation}\n`;
-    let why = "* " + `${answer.motivation}\n`;
-    let problem = "* " + `${answer.motivation}\n`;
-    let learn = "* " + `${answer.motivation}\n`;
+    let motivation = "- What was your motivation? " + `- ${answer.motivation}\n`;
+    let why = "- Why did you build this project? " + `- ${answer.motivation}\n`;
+    let problem = "- What problem does it solve? " + `- ${answer.motivation}\n`;
+    let learn = "- What did you learn? " + `- ${answer.motivation}\n\n`;
     let tableContents = "## Table of Contents (optional)\n";
     let installation = "- [Installation](#installation)\n";
     let usage = "- [Usage](#usage)\n";
     let credits = "- [Credits](#credits)\n";
-    let license = "- [License](#license)\n";
-    let installationD = "## Installation:\n" + `* ${answer.install}\n`;
+    let license = "- [License](#license)\n\n";
+    let installationD = "## Installation:\n";
+    let installl = "- What are the steps to install your project?\n" + `* ${answer.install}\n\n`;
+    let usageD = "## Usage:\n";
+    let screenshot = "Add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax: ![alt text](assets/images/screenshot.png)\n";
+    let usagescreenshot = "screenshot:" + `${answer.usage}\n\n`;
+    let creditsD = "## Credits:\n";
+    let collaborators = "* Collaborators: " + `${answer.collaborators}\n`;
+    let assets = "* Assets: " + `${answer.assets}\n`;
+    let tutorials = "* Tutorials: " + `${answer.tutorials}\n`;
+    let features = "* Features: " + `${answer.features}\n`;
+    let links = "## Links:\n";
+    let github = `* ${answer.github}\n`;
+    let projectlink = `* ${answer.links}\n`;
+
+
 
 
 
     console.log(answer);
 
     let content = "";
-    content = content + titleString + discription + motivation + why + problem + learn + tableContents + installation + usage + credits + license + installationD;
+    content = content + titleString + discription + motivation + why + problem + learn + tableContents + installation + usage + credits +
+        license + installationD + installl + usageD + screenshot + usagescreenshot + creditsD + collaborators + assets + tutorials + features + links + github + projectlink;
     console.log(content);
 
     return content;

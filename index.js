@@ -40,6 +40,43 @@ prompt([{
         message: 'What are the steps to install your project?',
         name: 'install',
     },
+    {
+        type: 'input',
+        message: 'Add a screenshot of your project here.',
+        name: 'usage',
+    },
+    {
+        type: 'input',
+        message: 'List your collaborators, if any, with links to their Github profiles. ',
+        name: 'collaborators',
+    },
+    {
+        type: 'input',
+        message: 'If you used any third-party assets that require attribution,list the creators with links to their primary web presence in this section ',
+        name: 'assets',
+    },
+    {
+        type: 'input',
+        message: 'If you followed tutorials, include links to those here as well. ',
+        name: 'tutorials',
+    },
+    {
+        type: 'input',
+        message: 'If your project has features, list them here ',
+        name: 'features',
+    },
+    {
+        type: 'input',
+        message: 'What is the URL to your Github?',
+        name: 'github',
+    },
+    {
+        type: 'input',
+        message: 'What is the URL to your deployed project link?',
+        name: 'links',
+    },
+
+
 ])
 
 .then((answer) => {
