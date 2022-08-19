@@ -30,7 +30,7 @@ function generateMarkdown(answer) {
     let installationD = "## Installation:\n";
     let installl = "- What are the steps to install your project?\n" + `* ${answer.install}\n\n`;
     let usageD = "## Usage:\n";
-    let screenshot = "Add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax: ![alt text](assets/images/screenshot.png)\n";
+    let screenshot = "Add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax: '![alt text](assets/images/screenshot.png)'\n";
     let usagescreenshot = "screenshot:" + `${answer.usage}\n\n`;
     let creditsD = "## Credits:\n";
     let collaborators = "* Collaborators: " + `${answer.collaborators}\n`;
