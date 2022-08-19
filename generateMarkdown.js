@@ -22,11 +22,11 @@ function generateMarkdown(answer) {
     let why = "* " + `${answer.motivation}\n`;
     let problem = "* " + `${answer.motivation}\n`;
     let learn = "* " + `${answer.motivation}\n`;
-    let tableContents = "## Table of Contents (optional)";
-    let installation = "- [Installation](#installation)";
-    let usage = "- [Usage](#usage)";
-    let credits = "- [Credits](#credits)";
-    let license = "- [License](#license)";
+    let tableContents = "## Table of Contents (optional)\n";
+    let installation = "- [Installation](#installation)\n";
+    let usage = "- [Usage](#usage)\n";
+    let credits = "- [Credits](#credits)\n";
+    let license = "- [License](#license)\n";
     let installationD = "## Installation:\n" + `* ${answer.install}\n`;
 
 
