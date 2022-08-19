@@ -1,11 +1,11 @@
-# Title: 
+# Title: Read Me Generator
 
 ## Discription:
-* sdfasdfasdfasdfasdf
-- What was your motivation? - 
-- Why did you build this project? - 
-- What problem does it solve? - 
-- What did you learn? - 
+* Read me Generator generates a Readme.md File
+- What was your motivation? - My motivaton was to save time writing read mes
+- Why did you build this project? - My motivaton was to save time writing read mes
+- What problem does it solve? - My motivaton was to save time writing read mes
+- What did you learn? - My motivaton was to save time writing read mes
 
 ## Table of Contents (optional)
 - [Installation](#installation)
@@ -15,17 +15,17 @@
 
 ## Installation:
 - What are the steps to install your project?
-* asdadsfasdfadsfadsfasdfasdfasd
+* run terminal node index.js answer questions
 
 ## Usage:
-Add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax: ![alt text](./assets/screenshot.png)
-screenshot:
+Add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax: ![alt text](assets/images/screenshot.png)
+screenshot:./assets/images.screenshot.png
 
 ## Credits:
-* Collaborators: adsasdfasdf
-* Assets: faasdfasdf
-* Tutorials: sdfasdfasdfasd
-* Features: aasdfasdf
+* Collaborators: n/a
+* Assets: n/a
+* Tutorials: youtube.com
+* Features: no features
 ## Links:
-* dsfasdfasdf
-* adsfadfsfasdf
+* Jonathon@vanausdalnet
+* Jonathon@vanausadlnet
