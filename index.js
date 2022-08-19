@@ -14,6 +14,22 @@ prompt([{
         message: 'Write a breif description of your project.',
         name: 'discription',
     },
+    {
+        type: 'input',
+        message: 'What was your motivation?.',
+        name: 'motivation',
+    },
+    {
+        type: 'input',
+        message: 'Why did you build this project?.',
+        name: 'why?',
+    },
+    {
+        type: 'input',
+        message: 'What problem did you solve?',
+        name: 'problem',
+    },
+
 
 
 
