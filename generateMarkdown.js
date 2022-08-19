@@ -39,7 +39,7 @@ function generateMarkdown(answer) {
     let features = "* Features: " + `${answer.features}\n`;
     let links = "## Links:\n";
     let github = "* Github link: " + `${answer.github}\n`;
-    let projectlink = "* Deployed link " + `${answer.links}\n`;
+    let projectlink = "* Deployed link: " + `${answer.links}\n`;
 
 
 
