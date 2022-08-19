@@ -1,11 +1,11 @@
 # Title: Read Me Generator
 
 ## Discription:
-* Read me Generator generates a Readme.md File
-- What was your motivation? - My motivaton was to save time writing read mes
-- Why did you build this project? - My motivaton was to save time writing read mes
-- What problem does it solve? - My motivaton was to save time writing read mes
-- What did you learn? - My motivaton was to save time writing read mes
+* Read Me Generator generates a readme.md file
+- What was your motivation? - My motivation was to save time writing professional readme files
+- Why did you build this project? - My motivation was to save time writing professional readme files
+- What problem does it solve? - My motivation was to save time writing professional readme files
+- What did you learn? - My motivation was to save time writing professional readme files
 
 ## Table of Contents (optional)
 - [Installation](#installation)
@@ -15,17 +15,17 @@
 
 ## Installation:
 - What are the steps to install your project?
-* run terminal node index.js answer questions
+* first open terminal into the index.js directory. second run node index.js. third answer the questions
 
 ## Usage:
-Add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax: ![alt text](assets/images/screenshot.png)
-screenshot:./assets/images.screenshot.png
+Add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax: !["alt text"]("assets/images/screenshot.png")
+screenshot: ![alt text](assets/images/screenshot.png)
 
 ## Credits:
-* Collaborators: n/a
+* Collaborators: no collaborators
 * Assets: n/a
 * Tutorials: youtube.com
-* Features: no features
+* Features: n/a
 ## Links:
-* Jonathon@vanausdalnet
-* Jonathon@vanausadlnet
+* Github link: jonathon@vanausdal.net
+* Deployed link: darin@vanausdal.net
