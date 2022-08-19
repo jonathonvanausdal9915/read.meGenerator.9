@@ -29,4 +29,4 @@ screenshot: ![alt text](assets/images/screenshot.png)
 ## Links:
 * Github link: https://github.com/jonathonvanausdal9915/read.meGenerator.9
 * Deployed link: https://jonathonvanausdal9915.github.io/read.meGenerator.9/
-* video link: 
+* video link: https://drive.google.com/file/d/1PV7XfqAP_dV4-0kq7nU1YRb4zJXeVI6K/view?usp=sharing
